@@ -19,13 +19,13 @@
 
 /* Sleep Timer Prescaler */
 #define PRESCALE_0    0 // timer off
-#define PRESCALE_1    1 // 7.813 ms
-#define PRESCALE_8    2 // 62.5 ms
-#define PRESCALE_32   3 // 250 ms
-#define PRESCALE_64   4 // 500 ms
-#define PRESCALE_128  5 // 1 s
-#define PRESCALE_256  6 // 2 s
-#define PRESCALE_1024 7 // 8 s
+#define PRESCALE_1    1 // 15.63 ms
+#define PRESCALE_8    2 // 125 ms
+#define PRESCALE_32   3 // 500 ms
+#define PRESCALE_64   4 // 1 s
+#define PRESCALE_128  5 // 2 s
+#define PRESCALE_256  6 // 4 s
+#define PRESCALE_1024 7 // 16 s
 
 void on(char prr);
 
