@@ -35,4 +35,6 @@ void sleepMode(char mode);
 
 void sleep();
 
+char isTicking();
+
 void sleepTimer(char prescaler);
